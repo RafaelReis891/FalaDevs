@@ -17,4 +17,4 @@ Etapas:
 
 2: O participante, terá que criar um Vídeo curto, ou um GIF do projeto pronto. E enviar para o GitHub o projeto. Todos receberão o Link do GitHub para enviar seu projeto.
 
-3: 
+3: Postar no facebook o link do GitHub, colocando o Vídeo ou o Gif no Post la no grupo do facebook, Unity Brasil, com a Hashtag: #FalaDevs
