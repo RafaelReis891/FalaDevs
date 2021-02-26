@@ -63,6 +63,8 @@
     </Reference>
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="Assets\Scriptable\Scripts\MapGenerator.cs" />
+    <Compile Include="Assets\Scriptable\Scripts\ObjectInfo.cs" />
     <Compile Include="Assets\Scripts\Destroy.cs" />
     <Compile Include="Assets\Scripts\Help_Friend.cs" />
     <Compile Include="Assets\Scripts\Light_Glitch.cs" />
