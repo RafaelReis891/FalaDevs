@@ -14,7 +14,7 @@ public class Light_Glitch : MonoBehaviour
     // Start is called before the first frame update
     void Start()
     {        
-		InvokeRepeating("RandonLightTime", 1, 5);
+		InvokeRepeating("RandonLightTime", 0, 0.15f);
 	}
 	
 	void ChangeLightState()
@@ -24,7 +24,8 @@ public class Light_Glitch : MonoBehaviour
 
 	void RandonLightTime()
 	{
-		glitchTime = Random.Range(1.0f, 50.0f) / 10.0f;
+		glitchTime = Random.Range(1.0f, 10.0f) / 10.0f;
 		InvokeRepeating("ChangeLightState", 1, glitchTime);
+		GetComponent<Light>().color = new Color32((byte)Random.Range(0, 255), (byte)Random.Range(0, 255), (byte)Random.Range(0, 255),255);
 	}
 }
